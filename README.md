@@ -9,11 +9,11 @@
 - FIREBASE
 
 ## PAGES
-- [Ana Səhifə](https://nurlana-qlyva.github.io/iatc/index.html)
-- [Haqqımızda](https://nurlana-qlyva.github.io/iatc/about.html)
-- [Kurslarımız](https://nurlana-qlyva.github.io/iatc/course.html)
-- [Tədbirlər](https://nurlana-qlyva.github.io/iatc/event.html)
-- [Əlaqə](https://nurlana-qlyva.github.io/iatc/contact.html)
+- [Ana Səhifə](https://semraab.github.io/webCourseWork/index.html)
+- [Haqqımızda](https://semraab.github.io/webCourseWork/about.html)
+- [Kurslarımız](https://semraab.github.io/webCourseWork/course.html)
+- [Tədbirlər](https://semraab.github.io/webCourseWork/event.html)
+- [Əlaqə](https://semraab.github.io/webCourseWork/contact.html)
 ### Homepage
 ![image](assets/image/homepage.png)
 
