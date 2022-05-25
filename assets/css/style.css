@@ -1,0 +1,795 @@
+/* home page */
+/* header */
+.header, .footer{
+    background-color: #192459;
+    color: #fff;
+}
+.header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+.custom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo-img{
+    width: 180px;
+    height: 100%;
+    overflow: hidden;
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lang-view div{
+    background: none;
+    border: none;
+}
+.lang-view{
+    display: inline;
+}
+.lang-view a img{
+    width: 30px;
+}
+.lang-select a img:hover{
+    outline: 2px solid orange;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px rgba(0,17,79,1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,17,79,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,17,79,1);
+}
+.lang-view a:hover{
+    background: none;
+}
+.dropdown-toggle::after{
+    margin-left: 0 !important;
+}
+.custom-header a{
+    text-decoration: none;
+    color: #fff;
+}
+.custom-header li a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+.lang-select a:hover{
+    border: none;
+}
+.custom-header ul li{
+    padding-right: 20px;
+    display: inline;
+}
+.dropdown-item{
+    border-bottom: none !important;
+}
+/* section banner */
+/* slider */
+.banner-border{
+    border-radius: 10px;
+}
+.banner-img{
+    position: relative;
+    padding: 6px;
+    height: 500px;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.news-events{
+    padding: 50px 0 ;
+}
+.banner, .breadcrump-page{
+    padding: 126px 0 80px;
+}
+.more-btn a, .asign-btn a{
+    background-color: orange;
+    border: 2px solid orange;
+    color: #fff;
+    padding: 8px 38px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: .8s ease;
+}
+.more-btn a i, .asign-btn a i, .all-btn a i{
+    transition: 1s ease;
+}
+.more-btn a:hover, .asign-btn a:hover{
+    text-decoration: none;
+}
+.more-btn{
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+.more-btn a:hover i , .asign-btn a:hover i, .all-btn a:hover i{
+    transform: translateX(20px);
+}
+.slick-dots li button:before{
+    color: #192459 !important;
+    content: '-';
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.slick-dots{
+    bottom: -12px;
+}
+.slick-dots li.slick-active button:before{
+    color: orange !important;
+}
+
+/* kurslarimiz */
+.our-course{
+    text-align: center;
+}
+.heading{
+    padding: 80px 0;
+}
+.border-down{
+    background-color: #192459;
+    width: 50px;
+    height: 4px;
+    display: inline-block;
+}
+.header-section h3{
+    margin-bottom: 0;
+    color: #192459;
+    font-size: 36px;
+}
+.our-course span{
+    color: orange;
+    font-size: 16px;
+}
+.course{
+    box-shadow: 0 0 10px 0 #cecece;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px;
+    border-top: 6px solid #264898;
+    height: 220px;
+}
+
+.about-course{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.thought{
+    background-color: aliceblue;
+    border-radius: 8px;
+    position: relative;
+    margin: 20px 10px;
+}
+.course-slider{
+    height: 300px !important;
+}
+.course-image img{
+    width: 100%;
+    height: 100%;
+}
+.course-image{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 38px;
+    right: 16px;
+}
+.btn a{
+    color: white;
+    border-radius: 2em;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #2d388a , #00aeef);
+    transition: 1s ease;
+    background: linear-gradient(to left, #2d388a , #00aeef 50%, #00aaf4 , #03e78f 50%) right;
+    background-size: 200%;
+}
+.btn a:hover{
+    background-position: left;
+}
+
+.btn{
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: -32px;
+}
+.about-course h4, .about-course p{
+    color: #00225f;
+    font-weight: 600;
+}
+.about-course h4{
+    font-size: 24px;
+}
+.about-course ul li{
+    color: #101d5b;
+    font-size: 14px;
+}
+.slick-list{
+    height: inherit;
+}
+.about-ourcourse {
+    font-size: 18px;
+}
+/* team members */
+.members{
+    background-color: #fff;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgb(0 22 84 / 10%);
+    transition: 0.8s ease;
+}
+.members a{
+    transition: 0.8s ease;
+}
+.members:hover{
+    text-decoration: none;
+    background-color: rgb(25, 36, 89);
+    color: #fff;
+}
+.members:hover a, .members:hover i{
+    color: #fff;
+    text-decoration: none;
+}
+.members:hover i{
+    color: orange;
+}
+.member-image{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+.member-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.about-member ul, .about-member h4{
+    margin: 10px 0;
+}
+.about-member ul li, .account-iatc ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.about-member a{
+    color: #192459;
+}
+.about-member p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* .about-member a:hover, .account-iatc li a:hover{
+    text-decoration: none;
+    color: orange;
+} */
+/* partners logo */
+.partner-image{
+    height: 140px;
+    margin: 0 11px;
+}
+.partner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.partner-slider{
+    box-shadow: 0 2px 10px rgb(0 22 84 / 10%);
+}
+/* tedbir ve xeberler */
+.image-card{
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image-card img{
+    height: 100%;
+    width: 100%;
+}
+.body-card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #cecece;
+}
+.header-card{
+    padding: 24px 16px;
+}
+.news-card a{
+    text-decoration: none;
+    color: #192459;
+    transition: 0.5s ease;
+}
+.news-card h4{
+    font-weight: 600;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news-card a:hover{
+    color: orange;
+}
+.news-card{
+    margin-bottom: 20px;
+}
+.pagination{
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.page-item{
+    box-shadow: 0 0 10px 0 #cecece;
+}
+.page-item a{
+    color: #192459;
+}
+.page-link:hover {
+    background-color: #fff !important;
+    color: orange;
+}
+.header-section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* footer */
+.footer{
+    padding: 20px 0;
+}
+.account-iatc{
+    text-align: right;
+}
+.account-iatc a{
+    color: #fff;
+}
+.footer span{
+    font-size: 12px;
+}
+.menu-responsive{
+    padding: 20px 15px;
+}
+.menu{
+    color: #fff;
+    font-size: 24px;
+    border-radius:4px;
+    outline: none !important;
+    border: 0;
+}
+.mega-menu p{
+    font-size:18px;
+}
+.side-menu{
+    background:rgba(0, 0, 0, 0.30);
+    position: fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    z-index:3;
+}
+.side-menu{
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+    transition:all .4s ease;
+}
+.side-menu.show{
+    opacity:1;
+    visibility:visible;
+    pointer-events:all;
+}
+.mega-menu{
+    height:100vh;
+    background:#192459;
+    width:336px;   
+    box-shadow: -3px 3px 43px -11px rgba(166,166,166,0.75);
+    padding:32px;
+    transition:all .6s ease;
+    transform: translate(-100%);
+}
+.transform00{
+    transform: translate(0) !important;
+}
+.mega-menu-list .show-submenu{
+    all:unset;
+    width:24px;
+    height:24px;
+    border-radius:2px;
+    font-size:14px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:#586268;
+    cursor: pointer;
+}
+.mega-menu-list li a,.sub-menu span a{
+    display:inline-block;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:16px;
+}
+.mega-menu-list li a:hover{
+    text-decoration:none;
+    color:#f27a1a;
+}
+.sub-menu span{
+    display: block;
+}
+.sub-menu{
+    padding-left:12px;
+    display:none;
+}
+.sub-menu span a::before{
+    content:'';
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    border:1px solid #ACB3B8;
+    margin-right:12px;
+    position: relative;
+    top:-1px;
+}
+.show-submenu i{
+    transition:all .4s ease;
+}
+.has-submenu.active .show-submenu i{
+    transform:rotate(90deg);
+}
+.general-list li a{
+    margin-top:8px;
+    margin-bottom:8px;
+    display:inline-block;
+    color:#f27a1a;
+    font-size:20px;
+}
+.general-list li a span.test{
+    color:green;
+}
+.general-list li.pink{
+    color:pink;
+    background:yellow;
+}
+.logo-img-menu{
+    width: 200px;
+    height: 100px;
+}
+.logo-img-menu img{
+    width: 100%;
+    height: 100%;
+}
+/* about page */
+.breadcrumb{
+    background: transparent !important;
+    justify-content: baseline;
+}
+.breadcrumb-item a{
+    color: #192459;
+}
+.breadcrumb-item a:hover{
+    color: #4b00ff;
+    text-decoration: none;
+}
+.breadcrump-page{
+    padding: 160px 0 40px;
+    background:  url(../image/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    height: 400px;
+}
+.bg-on{
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+}
+.context{
+    color: #192459;
+}
+.context h2{
+    font-size: 50px;
+}
+.context li {
+    font-size: 24px;
+}
+.breadcrumb-item.active{
+    color: #000;
+}
+.breadcrumb ol{
+    justify-content: baseline !important;
+}
+.breadcrumb{
+    padding: 0.75rem 0 !important;
+}
+.about-page-section, .about-course-section{
+    padding: 80px 0;
+}
+.image-ourcourse, .image-course, .image-teacher{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.image-ourcourse img, .image-course img, .image-teacher img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.image-course img, .image-course{
+    border-radius: 8px;
+}
+.about{
+    justify-content: center;
+    align-items: center;
+}
+.bg-section{
+    background-color: #f4f4f4;
+}
+.text-course h3{
+    color: #192459;
+    font-size: 24px;
+}
+.text-course li i, .text-course span, .text-course div{
+    color: #192459;
+}
+.text-content, .card-box, .teacher-content, .contact-section, .form{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    color: #192459;
+}
+.text-content ul li, #text-summary{
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-course-parts{
+    padding: 40px 0;
+}
+.border{
+    background-color: #192459;
+    opacity: 0.4;
+    height: 1px;
+    width: 100%;
+    margin: 30px 0;
+}
+.asign-btn{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.teacher-content{
+    margin: 20px 0 0;
+}
+.teacher-about{
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.contact-section h4{
+    margin-left: 10px;
+}
+.contact-section i{
+    font-size: 24px;
+    color: orange;
+    margin-top: 4px;
+}
+.contact-inner p{
+    margin-left: 10px;
+}
+.register-section{
+    padding: 160px 0 40px;
+}
+.form input, .form textarea, .form select{
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: 1px solid #cecece;
+    border-radius: 6px;
+    outline: none;
+    padding: 8px 10px;
+    margin: 6px 0 20px;
+}
+.form textarea{
+    height: 150px;
+    resize: unset;
+}
+#sendBtn button{
+    background-color: #fff;
+    color: orange;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid orange;
+    box-sizing: border-box;
+    transition: .7s ease;
+}
+#sendBtn button:hover{
+    background-color: orange;
+    color: #fff;
+}
+.contact{
+    margin: 40px 0;
+}
+.account-iatc a i, .about-member a i{
+    transition: 1s ease;
+}
+.account-iatc a:hover i, .about-member a:hover i{
+    transform: scale(1.5);
+}
+.all-btn a{
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 38px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid orange;
+    box-sizing: border-box;
+    transition: .7s ease;
+}
+.all-btn a:hover{
+    text-decoration: none;
+}
+.all-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.event-image{
+    width: 100%;
+    height: 300px;
+}
+.student-image{
+    width: 100%;
+    height: 300px;
+}
+.event-image img, .student-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+.event-page{
+    color: #192459;
+    text-align: center;
+}
+.event-text{
+    text-align: justify;
+}
+.event-page h2{
+    margin-bottom: 30px;
+}
+.our-student{
+    background-color: #192459;
+    color: #192459;
+}
+.our-student span{
+    color: #192459;
+    opacity: 0.7;
+}
+.text-thought{
+    padding: 20px;
+}
+.student-thought{
+    margin-top: -264px;
+}
+.padding{
+    padding-bottom: 250px;
+}
+.custom{
+    position: relative;
+}
+.text-content ul li, .card-box span{
+    line-height: 30px;
+}
+.contact{
+    border-top:  1px solid #cecece;
+    padding-top: 20px;
+}
+.register-section h2, .about-ourcourse h2{
+    color: #192459;
+    margin-bottom: 20px;
+}
+.slick-arrow{
+    display: none !important;
+}
+.form textarea{
+    overflow: scroll;
+} 
+.scroll-button{
+    position: fixed;
+    bottom: 76px;
+    right: 38px;
+}
+.scroll-button button{
+    background: #192459;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    border: none;
+    height: 50px;
+}
+.errors {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+}  
+.bdred {
+    border-color: red !important;
+}
+.bdgreen{
+    border-color: green !important;
+}
+/* font */
+.custom-header li a, .more-btn a{
+    font-size: 18px;
+}
+.context h2{
+    font-size: 50px;
+}
+.header-section h3{
+    font-size: 40px;
+}
+.about-ourcourse h2, .text-thought h3, .event-page h2, .contact-section h2, .text-course h3{
+    font-size: 36px;
+}
+.about-course h4, .form-view label, .text-content h4, .card-box h4, .teacher-content h4{
+    font-size: 28px;
+}
+.breadcrumb-item a, .text-thought h6{
+    font-size: 24px;
+}
+.about-course p, .btn a, .all-btn a, .custom-header ul li, .about-ourcourse div, .about-member p, .text-thought span, ::placeholder, #registerBtn, .event-text, .contact-section p, .text-course div, #text-summary, .text-content ul li, .teacher-content div, .more-btn a, select{
+    font-size: 20px;
+}
+.about-course ul li, .about-member p, .footer i,.custom-header, .card-box span{
+    font-size: 18px;
+}
+.news-card h4, .about-member a{
+    font-size: 22px;
+}
+.footer span{
+    font-size: 14px;
+}
+.form input, .form textarea, .form select{
+    padding: 14px 16px;
+}
+.contact-inner{
+    margin-bottom: 20px;
+}
+.map{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+iframe, .mapouter, .gmap_canvas{
+    width: 100% !important;
+}

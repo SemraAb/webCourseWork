@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/v4-shims.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-navbar">
+                <nav class="navbar custom-header">
+                    <a href="./index.html">
+                        <div class="logo-img">
+                            <img src="./assets/image/logo_main.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="view">
+                        <ul class="unstyled-list list-inline">
+                            <li class="list-inline-item">
+                                <a href="./index.html">Ana Səhifə</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="./about.html">Haqqımızda</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="./course.html">Kurslarımız</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="event.html">Tədbirlərimiz</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="./contact.html">Əlaqə</a>
+                            </li>
+                            <li>
+                                <div class="dropdown lang-view">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-expanded="false" role="button">
+                                        <img src="./assets/image/az.png" alt="lang">
+                                    </a>
+                                    <div class="dropdown-menu lang-select" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="./assets/image/az.png" alt="lang">
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <img src="./assets/image/en.png" alt="lang">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-none menu">
+                        <i class="fa fa-solid fa-align-justify"></i>
+                    </div>
+                    <div class="side-menu">
+                        <div class="mega-menu">
+                            <div class="logo-img-menu">
+                                <img src="./assets/image/logo_main.png" alt="logo">
+                            </div>
+                            <ul class="list-unstyled mega-menu-list">
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a class="active" href="index.html">Home</a>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="about.html">Haqqımızda</a>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="course.html">Kurslarımız</a>
+                                        <button type="button" class="show-submenu">
+                                            <i class="fa fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="sub-menu">
+                                        <span><a href="backend.html">BackEnd</a></span>
+                                        <span><a href="design.html">Web, Uİ/UX Design</a></span>
+                                        <span><a href="stack.html">Full Stack Development</a></span>
+                                        <span><a href="digital.html">Digital Marketing</a></span>
+                                        <span><a href="front.html">FrontEnd Development</a></span>
+                                        <span><a href="mobile.html">Mobile Development</a></span>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="event.html">Tədbirlərimiz</a>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="contact.html">Əlaqə</a>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center lang-view">
+                                        <a href="javascript:void(0)">
+                                            <img src="./assets/image/az.png" alt="lang">
+                                        </a>
+                                        <button type="button" class="show-submenu">
+                                            <i class="fa fa-chevron-right"></i>
+                                        </button>
+                                        <div class="sub-menu">
+                                            <span><a href="#">
+                                                <img src="./assets/image/az.png" alt="lang">
+                                            </a></span>
+                                            <span><a href="#">
+                                                <img src="./assets/image/en.png" alt="lang">
+                                            </a></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="has-submenu">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a class="font-16 blue-color orange-color-hover" href="./admin/login.html">Sign In</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- main body -->
+    <main>
+
+        <section class="bg-section register-section">
+            <div class="container">
+                <h2>Qeydiyyat Formu</h2>
+                <div class="form">
+                    <form action="">
+                        <div class="form-view">
+                            <label for="program">Proqram</label>
+                            <select name="program" id="program-name">
+                                <option value="BackEnd">BackEnd</option>
+                                <option value="BackEnd">FrontEnd</option>
+                                <option value="BackEnd">Mobile Development</option>
+                                <option value="BackEnd">Full Stack Development</option>
+                                <option value="BackEnd">Digital Marketing</option>
+                                <option value="BackEnd">Web UI/UX Design</option>
+                            </select>
+                        </div>
+                        <div class="form-view">
+                            <label for="user">Ad Soyad</label>
+                            <input type="text" name="user" id="user-name" placeholder="Name Surname">
+                            <div id="error_name" class="errors">* The name and surname field needs to contain fullname.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-view">
+                                    <label for="number">Nömrə</label>
+                                    <input type="text" name="number" id="phone-number">
+                                    <div id="error_phone" class="errors">* The phone number field needs to contain numbers.</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-view">
+                                    <label for="email">E-poçt</label>
+                                    <input type="text" name="email" id="email-address" placeholder="example@gmail.com">
+                                    <div id="error_email" class="errors">* The email field needs to contain an email address.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-view">
+                            <label for="text">Özünüz haqqında qısa məlumat</label>
+                            <textarea name="text" id="about-user" placeholder="Text..."></textarea>
+                        </div>
+                        <div id="sendBtn">
+                            <button type="submit" id="registerBtn">Göndər</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-conten-center align-items-center">
+                <div class="col-12 col-sm-6 copy-text">
+                    <span><i class="fa fa-solid fa-copyright"></i> 2022 Israil Azərbaycan Təlim Mərkəzi</span>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="account-iatc">
+                        <ul class="mb-0">
+                            <li>
+                                <a href="https://www.facebook.com/iatc.edu.az" target="_blank">
+                                    <i class="fa fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/iatceduaz/" target="_blank">
+                                    <i class="fa fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-button">
+        <button id="scrollTopBtn" onclick="scrollToTop()">
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+    </div>
+
+    <script>
+         function scrollToTop() {
+            $('html,body').animate({ scrollTop: 0 }, 'slow');
+        }
+    </script>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="./assets/js/register.js"></script>
+</body>
+</html>
